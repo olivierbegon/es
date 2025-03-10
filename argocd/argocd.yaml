@@ -9,7 +9,7 @@ spec:
     namespace: es
     server: https://kubernetes.default.svc
   source:
-    path: es
+    path: argocd
     repoURL: https://github.com/olivierbegon/es.git
     targetRevision: main
   sources: []
